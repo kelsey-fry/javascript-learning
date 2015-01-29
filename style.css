@@ -1,0 +1,11 @@
+header {
+    color: darkslategray;
+    background-color: #53A0D3;
+}
+
+p {
+    color: white;
+    background-color: #666;
+    line-height: 200%;
+    display: block;
+}

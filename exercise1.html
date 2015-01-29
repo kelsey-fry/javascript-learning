@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Class Exercise</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+        
+    <script> var userName = "Kelsey"
+             var todaysDate = new Date()
+             
+             function myFunction() {
+                document.getElementById("test").innerHTML="This text just changed!";
+                alert("You clicked this paragraph! Here's the alert I promised. The text also changed.")
+             }
+    </script>
+</head>
+
+<body>
+<header>Javascript Practice </header>
+<h1><script>document.write("Hello, ", userName, "!")</script></h1>
+<p><script>document.write("Today's date is: ", todaysDate)</script>
+</p>
+
+<p id="test" onclick="myFunction()">This is the second paragraph. When clicked the text will change and an alert will show.</p>
+
+
+</body>
+</html>
