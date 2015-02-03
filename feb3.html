@@ -13,8 +13,8 @@
         var mostWins = 0
         var winner = ""
         
-        for (var i = 0; i <= teams.length; i++){
-            if (wins[i] > mostWins){
+        for (var i = 0; i < teams.length; i++){
+            if (wins[i] >= mostWins){
                 mostWins = wins[i];
                 winner = teams[i];
             }
